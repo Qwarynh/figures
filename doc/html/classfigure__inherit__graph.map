@@ -1,0 +1,5 @@
+<map id="figure" name="figure">
+<area shape="rect" id="node2" href="$classcercle.html" title="classe cercle, classe fille de figure contenant plusieurs methodes pour calculer la surface et le per..." alt="" coords="5,80,63,107"/>
+<area shape="rect" id="node3" href="$classrectangle.html" title="classe rectangle, classe fille de figure contenant plusieurs methodes pour calculer la surface et le ..." alt="" coords="87,80,162,107"/>
+<area shape="rect" id="node4" href="$classtriangle.html" title="classe triangle, classe fille de figure contenant plusieurs methodes pour calculer la surface et le p..." alt="" coords="186,80,250,107"/>
+</map>
