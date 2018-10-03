@@ -3,7 +3,7 @@
 
 void triangle::surface(float cote1, float cote2, float cote3, float hauteur)
 {
-int surf;
+float surf;
 
 if ((cote1 > cote2) && (cote1>cote3)){
 
@@ -22,6 +22,6 @@ surf= (cote3*hauteur)/2;
 
 void triangle::perimetre(float cote1, float cote2, float cote3)
 {
-int peri= cote1 + cote2 + cote3;
+float peri= cote1 + cote2 + cote3;
   std::cout << "le perimetre du triangle est " << peri << std::endl;
 }
