@@ -21,13 +21,13 @@ public:
 /*! \brief methode surface, affiche l'aire de la figure
 * \ param rayon float
 */
-        void surface(float rayon);
+        float surface(float rayon);
 
 
 /*! \brief methode perimetre, affiche le perimetre de la figure
 * \ param rayon float
 */
-	void perimetre(float rayon);
+	float perimetre(float rayon);
 
 
 protected:

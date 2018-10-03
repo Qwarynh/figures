@@ -1,15 +1,15 @@
 #include "rectangle.h"
 #include <iostream>
 
-void rectangle::surface(float longueur, float largeur)
+float rectangle::surface(float longueur, float largeur)
 {
 float surf= longueur*largeur;
 
-  std::cout << "l'aire du rectangle est " << surf << std::endl;
+  return surf;
 }
 
-void rectangle::perimetre(float longueur, float largeur)
+float rectangle::perimetre(float longueur, float largeur)
 {
 float peri= (longueur+largeur)*2;
-  std::cout << "le perimetre du rectangle est " << peri << std::endl;
+  return peri;
 }

@@ -24,7 +24,7 @@ public:
 * \ param cote3 float
 * \ param hauteur float
 */
-        void surface(float cote1, float cote2, float cote3, float hauteur);
+        float surface(float cote1, float cote2, float cote3, float hauteur);
 
 
 /*! \brief methode perimetre, affiche le perimetre de la figure
@@ -32,7 +32,7 @@ public:
 * \ param cote2 float
 * \ param cote3 float
 */
-	void perimetre(float cote1, float cote2, float cote3);
+	float perimetre(float cote1, float cote2, float cote3);
 
 
 protected:

@@ -1,10 +1,10 @@
 #include <iostream>
 #include "figure.h"
 
-void figure::surface(){
+float figure::surface(){
 
 };
 
-void figure::perimetre(){
+float figure::perimetre(){
 
 }

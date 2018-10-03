@@ -1,15 +1,15 @@
 #include "cercle.h"
 #include <iostream>
 
-void cercle::surface(float rayon)
+float cercle::surface(float rayon)
 {
 float surf= (rayon*rayon)*3.14;
 
-  std::cout << "l'aire du cercle est " << surf << std::endl;
+  return surf;
 }
 
-void cercle::perimetre(float rayon)
+float cercle::perimetre(float rayon)
 {
 float peri= 2*rayon*3.14;
-  std::cout << "le perimetre du cercle est " << peri << std::endl;
+  return peri;
 }

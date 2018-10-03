@@ -19,12 +19,12 @@ public:
 
 /*! \brief methode surface, affiche l'aire de la figure
 */
-	virtual void surface();
+	virtual float surface();
 
 
 /*! \brief methode perimetre, affiche le perimetre de la figure
 */
-	virtual void perimetre();
+	virtual float perimetre();
 
 
 protected:

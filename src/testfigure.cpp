@@ -11,7 +11,7 @@ int main(){
 int test;
 triangle* tri= new triangle();
 cercle* cer = new cercle();
-rectangle* rec= new rectangle();
+rectangle rec;
 
 std::cout<< "De quelle figure voulez vous calculer l'aire?" <<std::endl;
 std::cout<< "1 : un triangle" <<std::endl;
@@ -32,16 +32,16 @@ case 1:
 	std::cin >> cote3;
 	std::cout<< "Quel est sa hauteur?" <<std::endl;
 	std::cin >> hauteur;
-	tri->surface(cote1, cote2, cote3, hauteur);
-	tri->perimetre(cote1, cote2, cote3);
+	std::cout<< "La surface du triangle est " << tri->surface(cote1, cote2, cote3, hauteur) << std::endl;
+	std::cout<< "Le perimetre du triangle est " << tri->perimetre(cote1, cote2, cote3) << std::endl;
 	break;
 
 case 2:
 	float rayon;
 	std::cout<< "Quel est son rayon?" <<std::endl;
 	std::cin >> rayon;
-	cer->surface(rayon);
-	cer->perimetre(rayon);
+	std::cout<< "La surface du cercle est " << cer->surface(rayon) << std::endl;
+	std::cout<< "Le perimetrecercle du triangle est " << cer->perimetre(rayon) << std::endl;
 	break;
 
 
@@ -51,8 +51,9 @@ case 3:
 	std::cin >> longueur;
 	std::cout<< "Quel est sa largeur?" <<std::endl;
 	std::cin >> largeur;
-	rec->surface(longueur, largeur);
-	rec->perimetre(longueur, largeur);
+std::cout<<"TEST"<<std::endl;
+	std::cout<< "La surface du rectangle est " << rec.surface(longueur, largeur)<< std::endl;
+	 std::cout<< "Le perimetre du rectangle est " << rec.perimetre(longueur, largeur)<< std::endl;
 	break;
 
 default : 

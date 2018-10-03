@@ -21,14 +21,14 @@ public:
 * \ param longueur float
 * \ param largeur float
 */
-        void surface(float longueur, float largeur);
+        float surface(float longueur, float largeur);
 
 
 /*! \brief methode perimetre, affiche le perimetre de la figure
 * \ param longueur float
 * \ param largeur float
 */
-	void perimetre(float longueur, float largeur);
+	float perimetre(float longueur, float largeur);
 
 
 protected:
